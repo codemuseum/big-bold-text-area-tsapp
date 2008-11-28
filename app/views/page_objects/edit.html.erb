@@ -1,7 +1,7 @@
-<% stylesheets 'big-bold-text-area' -%>
+<% stylesheets 'big-bold-text-area-edit' -%>
 <% # javascripts 'prototype', 'effects', 'dragdrop', 'assets' -%>
 <div class="content">
   <% fields_for_page_object do |f| %>
-    <%= f.text_area :content %>
+    <%= f.text_area :content, :rows => 5 %>
   <% end %>
 </div>
